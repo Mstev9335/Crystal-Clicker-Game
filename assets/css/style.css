@@ -1,12 +1,16 @@
 h1{
     font-size: 50px;
     background-color: orange;
+    width: 50%;
+    margin: 15px;
 }
 
 p{
     font-size: 15px;
     background-color: beige;
     padding: 15px;
+    margin-left: 15px;
+    width:60%;
 }
 
 body{
@@ -17,13 +21,21 @@ body{
     font-size: 25px;
     padding:15px;
     background-color: cyan;
+    width:25%;
+    margin-left: 15px;
 }
 
 #total-score{
     font-size: 25px;
     background-color: teal;
+    width: 45%;
+    margin: 15px;
 }
 
 #random-number{
     background-color: green;
+    font-size: 25px;
+    width: 35%;
+    height: 25%;
+    margin: 15px;
 }
