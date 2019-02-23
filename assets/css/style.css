@@ -1,0 +1,29 @@
+h1{
+    font-size: 50px;
+    background-color: orange;
+}
+
+p{
+    font-size: 15px;
+    background-color: beige;
+    padding: 15px;
+}
+
+body{
+    background-image:url(../images/light-grey-terrazzo.png);
+}
+
+.stat{
+    font-size: 25px;
+    padding:15px;
+    background-color: cyan;
+}
+
+#total-score{
+    font-size: 25px;
+    background-color: teal;
+}
+
+#random-number{
+    background-color: green;
+}
