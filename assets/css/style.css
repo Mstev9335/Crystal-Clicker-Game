@@ -1,8 +1,32 @@
 h1{
-    font-size: 50px;
+    font-size: 40px;
     background-color: orange;
     width: 50%;
     margin: 15px;
+}
+h2{
+    font-size: 25px;
+    padding:15px;
+    background-color: cyan;
+    width:25%;
+    margin-left: 15px;
+}
+
+h3{
+    font-size: 35px;
+    background-color: beige;
+    width: 50%;
+    margin: 15px;
+    color:black;
+}
+
+h4{
+    font-size: 25px;
+    background-color: teal;
+    width: 45%;
+    height: 25%;
+    margin: 15px;
+    padding-top:15px; 
 }
 
 p{
@@ -25,12 +49,7 @@ body{
     margin-left: 15px;
 }
 
-#total-score{
-    font-size: 25px;
-    background-color: teal;
-    width: 45%;
-    margin: 15px;
-}
+
 
 #random-number{
     background-color: green;
@@ -39,3 +58,25 @@ body{
     height: 25%;
     margin: 15px;
 }
+
+#crystal-image1 {
+    width: 200px;
+    height: 200px;
+    float:left;
+    
+  }
+  #crystal-image2 {
+    width: 200px;
+    height: 200px;
+    float:left;
+  }
+  #crystal-image3 {
+    width: 200px;
+    height: 200px;
+    float:left;
+  }
+  #crystal-image4 {
+    width: 200px;
+    height: 200px;
+    float:left;
+  }
