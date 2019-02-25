@@ -16,11 +16,17 @@ $("#losses").text(losses);
 $("#total-score").text(counter);
 
 
+
 // images to click
-$("#image1").prepend('<img  class="img" id="crystal-image1" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
-$("#image2").prepend('<img class="img" id="crystal-image2" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
-$("#image3").prepend('<img class="img" id="crystal-image3" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
-$("#image4").prepend('<img class="img" id="crystal-image4" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
+// $("#image1").prepend('<img  class="img" id="crystal-image1" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
+// $("#image2").prepend('<img class="img" id="crystal-image2" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
+// $("#image3").prepend('<img class="img" id="crystal-image3" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
+// $("#image4").prepend('<img class="img" id="crystal-image4" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
+
+$('#image1').prepend('<img class="img" id="crystal-image1" src="assets/images/gem1.png">');
+$('#image2').prepend('<img class="img" id="crystal-image2" src="assets/images/gem2.png">');
+$('#image3').prepend('<img class="img" id="crystal-image3" src="assets/images/gem3.png">');
+$('#image4').prepend('<img class="img" id="crystal-image4" src="assets/images/gem4.png">');
 
 
 // ----------- functions -------------------
