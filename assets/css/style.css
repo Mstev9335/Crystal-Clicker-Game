@@ -2,7 +2,9 @@ h1{
     font-size: 40px;
     background-color: orange;
     width: 50%;
-    margin: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 h2{
     font-size: 25px;
@@ -10,35 +12,39 @@ h2{
     background-color: cyan;
     width:25%;
     margin-left: 15px;
+  
 }
 
 h3{
     font-size: 35px;
-    background-color: beige;
-    width: 50%;
+    background-color: green;
+    line-height: 75px;
+    width: 30%;
+    height: 75px;
     margin: 15px;
     color:black;
+    text-align: center;
 }
 
 h4{
     font-size: 25px;
-    background-color: teal;
-    width: 45%;
-    height: 25%;
+    background-color: greenyellow;
+    width: 30%;
+    text-align: center;
     margin: 15px;
     padding-top:15px; 
 }
 
 p{
-    font-size: 15px;
+    font-size: 20px;
     background-color: beige;
-    padding: 15px;
+    padding: 10px;
     margin-left: 15px;
-    width:60%;
+    width:50%; 
 }
 
 body{
-    background-image:url(../images/light-grey-terrazzo.png);
+    background-image:url(../images/background.jpeg);
 }
 
 .stat{
@@ -49,18 +55,17 @@ body{
     margin-left: 15px;
 }
 
-.image{
-    margin-left: 15px;
-}
-
-
-
 #random-number{
     background-color: green;
     font-size: 25px;
     width: 35%;
     height: 25%;
     margin: 15px;
+}
+
+.image{
+    margin:15px;
+  
 }
 
 #crystal-image1 {
@@ -84,3 +89,4 @@ body{
     height: 200px;
     float:left;
   }
+
