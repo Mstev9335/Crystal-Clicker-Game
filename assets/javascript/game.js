@@ -4,6 +4,7 @@ var crystalValue1;
 var crystalValue2;
 var crystalValue3;
 var crystalValue4;
+// crystals given number between 1 and 12
  var numberOptions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var counter=0;
 var wins = 0;
@@ -15,14 +16,7 @@ $("#wins").text(wins);
 $("#losses").text(losses);
 $("#total-score").text(counter);
 
-
-
-// images to click
-// $("#image1").prepend('<img  class="img" id="crystal-image1" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
-// $("#image2").prepend('<img class="img" id="crystal-image2" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
-// $("#image3").prepend('<img class="img" id="crystal-image3" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
-// $("#image4").prepend('<img class="img" id="crystal-image4" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" />')
-
+// images
 $('#image1').prepend('<img class="img" id="crystal-image1" src="assets/images/gem1.png">');
 $('#image2').prepend('<img class="img" id="crystal-image2" src="assets/images/gem2.png">');
 $('#image3').prepend('<img class="img" id="crystal-image3" src="assets/images/gem3.png">');
@@ -34,12 +28,10 @@ $('#image4').prepend('<img class="img" id="crystal-image4" src="assets/images/ge
 
 // create random number
 function createRandom(){
+  // random number between 19 and 120
   randomNumber = Math.floor(Math.random()*(120-19+1)+19);
 $("#random-Number").text(randomNumber);
 }
-
-
-
 createRandom();
 
 // give crystals values
@@ -58,7 +50,7 @@ function assignValues(){
 assignValues(); 
 
 
-// ------ event functions --------
+// ------ click functions --------
 // crystal 1
 $("#crystal-image1").on("click", function() {
 

@@ -6,6 +6,8 @@ h1{
     margin-bottom: 15px;
     text-align: center;
 }
+
+/* wins and losses */
 h2{
     font-size: 25px;
     padding:15px;
@@ -15,6 +17,7 @@ h2{
   
 }
 
+/* random number */
 h3{
     font-size: 35px;
     background-color: green;
@@ -26,6 +29,7 @@ h3{
     text-align: center;
 }
 
+/* total score */
 h4{
     font-size: 25px;
     background-color: greenyellow;
@@ -47,22 +51,8 @@ body{
     background-image:url(../images/background.jpeg);
 }
 
-.stat{
-    font-size: 25px;
-    padding:15px;
-    background-color: cyan;
-    width:25%;
-    margin-left: 15px;
-}
 
-#random-number{
-    background-color: green;
-    font-size: 25px;
-    width: 35%;
-    height: 25%;
-    margin: 15px;
-}
-
+/* -------------- images ---------------- */
 .image{
     margin:15px;
   
