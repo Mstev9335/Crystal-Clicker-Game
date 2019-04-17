@@ -8,3 +8,6 @@ You win the game by matching your total score with a random number.  You lose th
 The value of each crystal is hidden until it is clicked on.
 
 Each time the game begins, the game will change the value of the crystals.
+
+## Technologies used:
+HTML, CSS, Javascript
