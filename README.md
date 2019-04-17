@@ -10,6 +10,8 @@ The value of each crystal is hidden until it is clicked on.
 Each time the game begins, the game will change the value of the crystals.
 
 ## Technologies used:
-HTML, CSS, Javascript
+* HTML
+* CSS
+* Javascript
 
 Deployed website: https://mstev9335.github.io/Crystal-Clicker-Game/
