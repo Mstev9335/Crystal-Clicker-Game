@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Clicker Game
 You will be given a random number at the start of the game.  
 
 There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
