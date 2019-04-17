@@ -11,3 +11,5 @@ Each time the game begins, the game will change the value of the crystals.
 
 ## Technologies used:
 HTML, CSS, Javascript
+
+Deployed website: https://mstev9335.github.io/Crystal-Clicker-Game/
