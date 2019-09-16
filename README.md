@@ -14,4 +14,19 @@ Each time the game begins, the game will change the value of the crystals.
 * CSS
 * Javascript
 
+### App starts
+![start](/assets/images/click1.png)
+
+### After a crystal is clicked
+![click](/assets/images/click2.png)
+
+### After the user wins
+![win](/assets/images/click3.png)
+
+### After the user loses
+![lose](/assets/images/click4.png)
+
+
+
+
 Deployed website: https://mstev9335.github.io/Crystal-Clicker-Game/
